@@ -1,7 +1,6 @@
 {
   "name": "store",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d dist"
@@ -9,8 +8,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage" : "https://github.com/dmarceo316/littleboxcompany.git",
+  "homepage": "https://github.com/dmarceo316/littleboxcompany.git",
   "dependencies": {
     "gh-pages": "^2.2.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmarceo316/littleboxcompany.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dmarceo316/littleboxcompany/issues"
+  },
+  "description": ""
 }

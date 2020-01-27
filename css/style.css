@@ -1,3 +1,9 @@
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */
+
 /* universal */
 
 body{
@@ -329,9 +335,9 @@ li a{
     background-color: #2f394D;
 }
 
-.wrapper7 ul {
+/* .wrapper7 ul {
 
-}
+} */
 
 .wrapper7 li{
     display: inline;
@@ -357,17 +363,22 @@ li a{
 
 .shop-nav{
    position: absolute;
-   right: 0px; 
+   right : 1px;
    height: 110vh;
    top: 0px;
    background-color: #F9EAE1;;
    display:flex;
    flex-direction: column; 
    align-items: center;
-   width: 100%;
+   width: 0;
    transform: translateX(100%);
    transition: transform 0.5s ease-in;
 }
+
+.shop-nav ul{
+    width: 100%;
+}
+
 .shop-nav li{
    opacity: 0;
    padding-top: 150px;
@@ -380,7 +391,8 @@ li a{
 }
 
 .nav-active{
-   transform: translateX(7%);
+   width: 100%; 
+   transform: translateX(8%);
 }
 
 
