@@ -19,21 +19,32 @@
                     </ul>
                 </nav>
         <h1 class='title'>LITTLE box Company</h1>  
-        <div class='burger'>
-                <div class='line1'></div>
-                <div class='line2'></div>
-                <div class='line3'></div>
-        </div>
             <nav class='shop-nav'>
-                <ul>
-                 <li><a href="#" class='u-line'>Men</a></li>
+                <ul class="navbar-nav">
+                    <li><a href="#" class='u-line'>Men</a></li>
                     <li><a href="#" class='u-line'>Women</a></li>
                     <li><a href="#" class='u-line'>Kids</a></li>
                     <li><a href="#" class='u-line'>Sale</a></li>
                     <li><input type ='search' name ='search' value='search'></li> 
-                    </li>
                 </ul>
             </nav>
+
+            <div id="side-menu" class="side-nav">
+                <a href="#" class="btn-close"
+                onClick="closeSlideMenu()"
+                >&times;</a>
+                <a href="#" class='u-line'>Men</a>
+                <a href="#" class='u-line'>Women</a>
+                <a href="#" class='u-line'>Kids</a>
+                <a href="#" class='u-line'>Sale</a>
+                <input type ='search' name ='search' value='search'>
+            </div>
+
+            <div class="open-slide">
+                <a href="#" onClick="openSlideMenu()">
+                <img src="images/burger.png" alt="burger" width="30px"/>
+                </a>
+            </div>
     </div>
 
     <div class='wrapper2'>
