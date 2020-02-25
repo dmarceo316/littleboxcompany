@@ -170,7 +170,7 @@ li a{
 
 .image2{
     background-image: url("../images/clothes.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
     background-attachment: fixed;
     height: 100%;
     position: relative;
@@ -245,7 +245,7 @@ li a{
 
 .image3{
     background-image: url("../images/fashion.jpg");
-    background-attachment: fixed;;
+    background-attachment: fixed;
     background-position: 60% 60%;
     background-size: cover;
     height: 500px;
@@ -336,7 +336,6 @@ li a{
     letter-spacing: 2px;
 }
 
-
 /* bottom div  */
 
 .wrapper7{
@@ -391,7 +390,7 @@ li a{
 
 .image2{
     background-image: url("../images/clothes.jpg");
-    height: 100%;
+    background-position: center;
     position: relative;
 }
 
@@ -460,18 +459,17 @@ li a{
 
 .image3{
     background-image: url("../images/fashion.jpg");
-    background-position: 60% 60%;
-    background-size: cover;
+    background-position: center;
     height: 500px;
 }
 
 .follow{
-    padding-top: 150px;
-    /* width: 100%; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-right: 50px;
+    padding-top: 150px;
 }
 
 .facebook{
