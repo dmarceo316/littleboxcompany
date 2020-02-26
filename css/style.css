@@ -375,7 +375,18 @@ li a{
     display: block;
 }
 
- /* first image ul  */
+ /* first image  */
+ .image1{
+    background-image: url("../images/couple.jpg");
+    background-size: 100% 100%;
+    max-height: 100%;
+    max-width: 100%;
+    height: 70vh; 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
  .image1 ul{
     padding-top: 10px;
 }
@@ -390,6 +401,7 @@ li a{
 
 .image2{
     background-image: url("../images/clothes.jpg");
+    background-attachment: scroll;
     background-position: center;
     position: relative;
 }
@@ -459,6 +471,7 @@ li a{
 
 .image3{
     background-image: url("../images/fashion.jpg");
+    background-attachment: scroll;
     background-position: center;
     height: 500px;
 }
